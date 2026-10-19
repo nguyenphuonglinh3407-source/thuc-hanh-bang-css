@@ -1,0 +1,36 @@
+/* Thiết lập font chữ cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Kích thước bảng và gộp đường viền */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Bỏ đường viền kép */
+}
+
+/* Kẻ viền cho bảng, ô tiêu đề và ô dữ liệu */
+table, th, td {
+    border: 1px solid black;
+}
+
+/* Khoảng cách (padding) và căn chỉnh cho các ô */
+th, td {
+    padding: 15px;            /* Tạo độ thoáng cho nội dung */
+    text-align: left;         /* Căn trái nội dung */
+    vertical-align: middle;   /* Căn giữa theo chiều dọc */
+}
+
+/* Màu sắc và chiều cao cho phần Tiêu đề (th) */
+th {
+    height: 50px;
+    background-color: #333;   /* Nền tối */
+    color: white;             /* Chữ trắng */
+}
+
+/* Màu sắc cho phần Dữ liệu (td) */
+td {
+    background-color: #f2f2f2; /* Nền xám nhạt */
+    color: #333;               /* Chữ xám đậm */
+}
